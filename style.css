@@ -1,0 +1,123 @@
+ * {
+     padding: 0px;
+     margin: 0px;
+     font-family: "Poppins";
+ }
+
+ p,
+ ul {
+     font-size: large;
+ }
+
+ 
+
+ .main_content {
+     padding: 50px;
+     border: 2px solid black;
+     margin: 50px;
+
+ }
+
+ #career_title,
+ #education_title,
+ #experience_title,
+ #project_title,
+ #technical_title,
+ #strength_title,
+ #hobbie_title {
+     margin: 30px 0px 8px 0px;
+ }
+
+ #name_title {
+     font-size: 52px;
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 15px;
+ }
+
+ #contact_details {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #contact_details li {
+     list-style: none;
+     margin: 15px;
+     width: 260px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .career_objective p {
+     margin: 10px;
+     padding: 10px 25px;
+ }
+
+ .education_details p {
+     margin: 5px 15px;
+ }
+
+ #edu {
+     margin: 20px 10px;
+ }
+
+ #job_role {
+     margin: 12px;
+ }
+
+ .experience_detail h3 {
+     margin: 10px 7px;
+ }
+
+ #work,
+ #project,
+ #skills,
+ #strength,
+ #hobbies {
+     margin: 15px 35px;
+ }
+
+ #work li,
+ #skills li,
+ #strength li,
+ #hobbies li {
+     margin: 8px;
+ }
+
+ #project li {
+     padding: 10px 25px 2px 0px;
+ }
+
+ #line-hr {
+     margin: 10px 0px;
+ }
+
+ #social_links {
+     text-align: center;
+     margin-bottom: 15px;
+ }
+
+ #social_links a {
+     text-decoration: none;
+     color: black;
+     font-size: 18px;
+     font-weight: 600;
+     margin: 0px 8px;
+ }
+
+ #social_links a:hover {
+     text-decoration: underline;
+ }
+
+
+ @media (max-width: 600px) {
+     .main_content {
+         padding: 20px;
+         margin: 10px;
+     }
+
+     #contact_details {
+         flex-direction: column;
+         text-align: center;
+     }
+ }
